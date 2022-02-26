@@ -17,10 +17,14 @@ Se quiser instalar uma ótima ferramenta de administração para o MySQL, use o 
 
 
 
-para testar o LAMP crie um arquivo com extensão .php e execute
+para testar o LAMP crie um arquivo com extensão .php
 
 ~$ echo "<?php phpinfo(); ?>" | sudo tee /var/www/html/test.php
 
+Reinicie o servidor apache digitando o comando abaixo e depois tecle “enter”;
 
+~$ sudo /etc/init.d/apache2 restart
 
+executando o arquivo no navegador deverá aparecer a imagem a baixo;
 
+![testephp](https://user-images.githubusercontent.com/79322362/155844567-f744faaf-fa46-4013-a4dd-903dec6e89b1.png)
