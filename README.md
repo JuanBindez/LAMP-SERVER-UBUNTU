@@ -1,4 +1,4 @@
-Como instalar o LAMP no Linux Ubuntu
+### Como instalar o LAMP no Linux Ubuntu
 
 
 Passo 1. Abra um terminal;
@@ -10,21 +10,21 @@ Passo 2. Dentro do terminal do Ubuntu, digite o comando abaixo (Observe que o s�
 
 ###########################################################
 
-Se quiser instalar uma ótima ferramenta de administração para o MySQL, use o comando abaixo;
+### Se quiser instalar uma ótima ferramenta de administração para o MySQL, use o comando abaixo;
 
 
 ~$ sudo apt-get install phpmyadmin
 
 
 
-para testar o LAMP crie um arquivo com extensão .php
+### para testar o LAMP crie um arquivo com extensão .php
 
 ~$ echo "<?php phpinfo(); ?>" | sudo tee /var/www/html/test.php
 
-Reinicie o servidor apache digitando o comando abaixo e depois tecle “enter”;
+### Reinicie o servidor apache digitando o comando abaixo e depois tecle “enter”;
 
 ~$ sudo /etc/init.d/apache2 restart
 
-executando o arquivo no navegador deverá aparecer a imagem a baixo;
+### executando o arquivo no navegador deverá aparecer a imagem a baixo;
 
 ![testephp](https://user-images.githubusercontent.com/79322362/155844567-f744faaf-fa46-4013-a4dd-903dec6e89b1.png)
