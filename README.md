@@ -25,6 +25,6 @@ Passo 2. Dentro do terminal do Ubuntu, digite o comando abaixo (Observe que o s�
 
 ~$ sudo /etc/init.d/apache2 restart
 
-## Abra seu navegador favorito e na barra de endereço dele digite “http://localhost/test.php” (sem as aspas) e depois tecle “enter”. Serão mostradas todas as informações sobre a versão do PHP, MySQL e Apache que foram instalados.
+### Abra seu navegador favorito e na barra de endereço dele digite “http://localhost/test.php” (sem as aspas) e depois tecle “enter”. Serão mostradas todas as informações sobre a versão do PHP, MySQL e Apache que foram instalados.
 
 ![testephp](https://user-images.githubusercontent.com/79322362/155844567-f744faaf-fa46-4013-a4dd-903dec6e89b1.png)
