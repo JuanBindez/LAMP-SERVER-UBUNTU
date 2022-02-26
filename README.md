@@ -14,3 +14,13 @@ Se quiser instalar uma ótima ferramenta de administração para o MySQL, use o 
 
 
 ~$ sudo apt-get install phpmyadmin
+
+
+
+para testar o LAMP crie um arquivo com extensão .php e execute
+
+~$ echo "<?php phpinfo(); ?>" | sudo tee /var/www/html/test.php
+
+
+
+
