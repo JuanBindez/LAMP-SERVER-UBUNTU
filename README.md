@@ -17,7 +17,7 @@ Se quiser instalar uma ótima ferramenta de administração para o MySQL, use o 
 
 
 
-###para testar o LAMP crie um arquivo com extensão .php
+para testar o LAMP crie um arquivo com extensão .php
 
 ~$ echo "<?php phpinfo(); ?>" | sudo tee /var/www/html/test.php
 
