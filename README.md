@@ -8,7 +8,7 @@ Passo 2. Dentro do terminal do Ubuntu, digite o comando abaixo (Observe que o s�
 ~$ sudo apt-get install lamp-server^
 
 
-### ________________________________________________________________________________________
+### _____________________________________________________
 
 ### Se quiser instalar uma ótima ferramenta de administração para o MySQL, use o comando abaixo;
 
