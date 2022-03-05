@@ -24,6 +24,15 @@ Passo 2. Dentro do terminal do Ubuntu, digite o comando abaixo (Observe que o s√
 
 ~$ sudo systemctl start mysql
 
+### para reiniciar o servi√ßo:
+
+~$ sudo systemctl restart apache2
+
+~$ sudo systemctl restart mysql
+
+
+
+
 
 ### ____________________________________________
 
