@@ -11,7 +11,21 @@ Passo 2. Dentro do terminal do Ubuntu, digite o comando abaixo (Observe que o s�
 
 ~$ sudo chmod -R /var/www
 
-### _____________________________________________________
+
+### para ver o status do apache e mysql:
+
+~$ sudo systemctl status apache2
+
+~$ sudo systemctl status mysql
+
+### para startar caso o serviço estiver inoperante:
+
+~$ sudo systemctl start apache2
+
+~$ sudo systemctl start mysql
+
+
+### ____________________________________________
 
 ### Se quiser instalar uma ótima ferramenta de administração para o MySQL, use o comando abaixo;
 
