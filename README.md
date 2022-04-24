@@ -9,8 +9,7 @@ Passo 2. Dentro do terminal do Ubuntu, digite o comando abaixo (Observe que o s√
 
 ### agora deve autorizar a pasta www como administrador
 
-~$ sudo chmod -R /var/www
-
+~$ sudo chmod -R 777 /var/www
 
 ### para ver o status do apache e mysql:
 
