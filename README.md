@@ -7,7 +7,7 @@ Passo 2. Dentro do terminal do Ubuntu, digite o comando abaixo (Observe que o s√
 
 `~$ sudo apt-get install lamp-server^`
 
-### agora deve autorizar a pasta www como administrador
+### agora deve autorizar a pasta www com O chmod
 
 `~$ sudo chmod -R 777 /var/www`
 
